@@ -10,11 +10,11 @@ class EducationPage extends HTMLElement {
             <div class="container-fluid py-3 px-3">
                 <h2 class="display-4 ps-md-5 my-4">Education</h2>
                 <div class="row py-3">
-                    <div class="col-4 px-3">
-                        <img src="${upnLogo}" class="img-fluid mx-auto d-block" width="125" height="125" alt="UPN Veteran Jakarta">
+                    <div class="col-3 px-3 text-center">
+                        <img src="${upnLogo}" class="img-fluid" width="120" height="150" alt="UPN Veteran Jakarta">
                     </div>
 
-                    <div class="col-8 px-3">
+                    <div class="col-9 px-3">
                         <h4 class="fw-bold">UPN Veteran Jakarta</h4>
                         <p class="lead">S1 Informatika - Fakultas Ilmu Komputer</p>
                         <p>2018 - Present</p>
@@ -22,11 +22,11 @@ class EducationPage extends HTMLElement {
                 </div>
 
                 <div class="row py-3">
-                    <div class="col-4 px-3">
-                        <img src="${upnLogo}" class="img-fluid mx-auto d-block" width="125" height="125" alt="UPN Veteran Jakarta">
+                    <div class="col-3 px-3 text-center">
+                        <img src="${upnLogo}" class="img-fluid" width="120" height="150" alt="UPN Veteran Jakarta">
                     </div>
 
-                    <div class="col-8 px-3">
+                    <div class="col-9 px-3">
                         <h4 class="fw-bold">UPN Veteran Jakarta</h4>
                         <p class="lead">S1 Informatika - Fakultas Ilmu Komputer</p>
                         <p>2018 - Present</p>
