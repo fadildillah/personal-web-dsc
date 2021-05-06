@@ -10,6 +10,7 @@
   "author": "fadil",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.14.0",
     "@babel/preset-env": "^7.14.1",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.4",
@@ -24,7 +25,6 @@
     "webpack-merge": "^5.7.3"
   },
   "dependencies": {
-    "@babel/core": "^7.14.0",
     "bootstrap": "^5.0.0",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
