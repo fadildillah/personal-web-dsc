@@ -19,13 +19,21 @@ body {
 .skills__list {
     display: grid;
     grid-template-columns: repeat(4, minmax(125px, 1fr));
-    grid-gap: 1rem;
+    gap: 1rem;
     justify-items: center;
 }
 
 @media only screen and (max-width: 576px) {
+    .brand__name {
+        display: none;
+    }
+
     .skills__list {
         grid-template-columns: 1fr;
+    }
+
+    .app__bar {
+        display: none;
     }
 
     .skills__item {
@@ -33,14 +41,9 @@ body {
     }
 }
 
-@media only screen and (max-width: 768px) {
-
-    .skills__list {
-        grid-template-columns: 1fr;
-    }
+@media only screen and (max-width: 576px) {
 
     .about__photo {
         display: none;
     }
-
 }

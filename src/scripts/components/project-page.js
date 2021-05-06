@@ -7,7 +7,7 @@ class ProjectPage extends HTMLElement {
 
   render() {
     this.innerHTML = `
-        <div class="container py-sm-5">
+        <div class="container-fluid py-5 px-md-5">
             <h2 class="display-4 text-end">Projects</h2>
             <div class="row justifiy-content-md-center my-sm-3">
                 <div class="col col-sm-6 col-12">

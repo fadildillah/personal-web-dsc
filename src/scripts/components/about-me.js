@@ -7,7 +7,7 @@ class AboutMe extends HTMLElement {
 
   render() {
     this.innerHTML = `
-        <div class="container about__me py-md-5">
+        <div class="container-fluid about__me py-5 px-3">
             <div class="row justify-content-md-center text-justify">
                 <div class="col col-sm-6 col-12">
                     <div class="d-flex flex-column mx-md-2">
@@ -18,7 +18,7 @@ class AboutMe extends HTMLElement {
                         </p> 
                     </div>
                 </div>
-                <div class="col col-md-5 about__photo align-self-end">
+                <div class="col col-md-5 about__photo align-self-md-center">
                     <img src="${aboutPhoto}" alt="Gambar anjing dengan laptop" class="img-fluid rounded">
                 </div>
             </div>

@@ -5,7 +5,7 @@ class ContactPage extends HTMLElement {
 
   render() {
     this.innerHTML = `
-      <div class="container py-sm-5 bg-light">
+      <div class="container-fluid py-3 px-md-5 bg-light">
         <h2 class="display-5">Contact</h2>
         <div class="py-sm-2">
             <p class="lead">Get in touch with me. <span><a href="mailto:fadillahm704@gmail.com">Send Email</a></span></p>

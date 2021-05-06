@@ -2,35 +2,35 @@ class AppBar extends HTMLElement {
   connectedCallback() {
     this.render();
   }
+  
 
   render() {
     this.innerHTML = `
-            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white px-lg-5">
-                <a class="navbar-brand d-flex align-items-center" href="#">
-                  <span class="font-weight-bold">Muhammad Fadillah</span>
-                </a>
-                
-                <div class="collapse navbar-collapse float-end" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#about">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#project">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-            </nav>
-        `;
+        <nav class="navbar sticky-top navbar-light bg-white px-lg-5">
+          <div class="container-fluid">
+            <a class="navbar-brand brand__name" href="#">
+              <span class="fw-bold">Muhammad Fadillah</span>
+            </a>
+            <ul class="navbar-nav d-flex flex-row app__bar">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#project">Projects</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      `;
   }
 }
 
